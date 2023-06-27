@@ -7,5 +7,5 @@ ICuenta cuentaProxy = new CuentaProxy();
 cuentaProxy.mostrarSaldo(c);
 
 c = cuentaProxy.depositarDinero(c, 50);
-c = cuentaProxy.retirarDinero(c, 20);
+c = cuentaProxy.retirarDinero(c, 30);
 cuentaProxy.mostrarSaldo(c);
